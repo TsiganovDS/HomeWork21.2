@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Заголовок страницы</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+      }
+      .menu {
+        width: 200px;
+        height: 700px;
+        background-color: #343a40;
+        padding: 20px;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      .content {
+        margin-left: 250px;
+        padding: 20px;
+        width: calc(100% - 250px);
+      }
+      .user-section {
+        margin-top: 360px;
+      }
+    </style>
+  </head>
+
+    <body>
+
+    <div class="menu">
+      <h4>Меню</h4>
+      <hr>
+      <ul>
+            <li><a href="home.html">Главная</a></li>
+            <li><a href="catalog.html">Категории</a></li>
+            <li><a href="orders.html">Заказы</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <hr>
+      <div class="user-section">
+        <hr>
+        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+        id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+
+        <strong class="dropdown-item">Пользователь</strong>
+        </a>
+
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Выход</a></li>
+            </ul>
+      </div>
+    </div>
+
+      <div class="content">
+        <h1 class="text-center">Главная</h1>
+        <p class="text-center"> Вы находитесь на сайте для продажи товаров </p>
+        <div class="container px-4 text-center">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                  <h5 class="card-title">Secondary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
